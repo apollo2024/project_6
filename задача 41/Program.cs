@@ -3,7 +3,7 @@
 // 0, 7, 8, -2, -2 -> 2
 
 // 1, -7, 567, 89, 223-> 3
-Console.Write("Введите элементы(через пробел): ");
+Console.Write("put the numbers (with space): ");
 int[] array = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 System.Console.WriteLine(GetSum(array));
 int GetSum(int[] array)
